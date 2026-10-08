@@ -1,0 +1,18 @@
+{
+  "test": "SIMULATED ENVIRONMENTAL EVENT",
+  "started_at": "2026-10-08T18:51:49.582Z",
+  "finished_at": "2026-10-08T18:51:53.208Z",
+  "status": "PASS",
+  "expected": {
+    "published": 60,
+    "received": 60,
+    "environmental_events_min": 1
+  },
+  "actual": {
+    "published": 60,
+    "received": 60,
+    "environmental_events": 9
+  },
+  "radio_mode": "SIMULATED",
+  "physical_range_validation": "NOT PERFORMED"
+}

@@ -1,0 +1,15 @@
+{
+  "test": "CONSUMER RESTART",
+  "started_at": "2026-10-08T18:58:55.462Z",
+  "status": "PASS",
+  "expected": {
+    "before_restart_confirmed": true,
+    "after_restart_confirmed": true
+  },
+  "actual": {
+    "before_restart_confirmed": true,
+    "after_restart_confirmed": true,
+    "pending_after_restart": 0
+  },
+  "finished_at": "2026-10-08T18:58:56.616Z"
+}

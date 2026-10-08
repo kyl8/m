@@ -1,0 +1,71 @@
+{
+  "executed_at": "2026-10-08",
+  "environment": {
+    "operating_system": "Windows",
+    "python": "3.14.6",
+    "mosquitto": "2.1.2",
+    "influxdb": "v2.9.1"
+  },
+  "pytest": {
+    "passed": 20,
+    "skipped": 2,
+    "failed": 0,
+    "elapsed_seconds": 9.69,
+    "skipped_reasons": [
+      "hardware LoRaWAN físico não disponível",
+      "carga extensa exige RUN_LOAD_TESTS=1"
+    ]
+  },
+  "mqtt_basic": {
+    "status": "PASS",
+    "latency_ms": 19.883800001480267
+  },
+  "influx_basic": {
+    "status": "PASS",
+    "temperature_expected": 25.123456,
+    "temperature_found": 25.123456,
+    "ph_expected": 7.654321,
+    "ph_found": 7.654321
+  },
+  "end_to_end_100": {
+    "status": "PASS",
+    "generated": 100,
+    "published": 100,
+    "received": 100,
+    "written": 100,
+    "found": 100,
+    "loss": 0,
+    "messages_per_second": 20.258707339290194,
+    "average_ms": 1423.19981,
+    "p95_ms": 2217.4521999999997,
+    "p99_ms": 2298.3597
+  },
+  "end_to_end_1000": {
+    "status": "PASS",
+    "devices": 10,
+    "generated": 1000,
+    "published": 1000,
+    "received": 1000,
+    "written": 1000,
+    "found": 1000,
+    "loss": 0,
+    "messages_per_second": 17.982763786839963,
+    "average_ms": 17566.2747,
+    "p95_ms": 28989.73285,
+    "p99_ms": 29555.50452
+  },
+  "failure_recovery": {
+    "influxdb": "PASS",
+    "mqtt_reconnect": "PASS",
+    "consumer_restart": "PASS"
+  },
+  "classification": {
+    "mqtt": "REAL",
+    "database": "REAL",
+    "tcp_ip": "REAL",
+    "sensor_device": "SIMULATED",
+    "radio_conditions": "SIMULATED",
+    "physical_lorawan_range": "NOT TESTED",
+    "multi_host_lan": "NOT TESTED"
+  }
+}

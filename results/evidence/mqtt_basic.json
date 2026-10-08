@@ -1,0 +1,13 @@
+{
+  "test": "MQTT BASIC",
+  "started_at": "2026-10-08T18:59:02.387Z",
+  "status": "PASS",
+  "expected": {
+    "message_id": "d5d2a9bf-6e97-47fd-ba97-2aa6961f0488"
+  },
+  "actual": {
+    "message_id": "d5d2a9bf-6e97-47fd-ba97-2aa6961f0488",
+    "latency_ms": 19.883800001480267
+  },
+  "finished_at": "2026-10-08T18:59:02.407Z"
+}

@@ -1,0 +1,19 @@
+{
+  "test": "DUPLICATE AND FRAME ORDER",
+  "started_at": "2026-10-08T18:59:02.021Z",
+  "finished_at": "2026-10-08T18:59:02.384Z",
+  "status": "PASS",
+  "expected": {
+    "received": 7,
+    "duplicates": 1,
+    "out_of_order": 1,
+    "possible_missing_frames": 3
+  },
+  "actual": {
+    "received": 7,
+    "duplicates": 1,
+    "out_of_order": 1,
+    "possible_missing_frames": 3
+  },
+  "error": null
+}

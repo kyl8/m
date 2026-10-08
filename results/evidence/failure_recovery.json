@@ -1,0 +1,14 @@
+{
+  "test": "INFLUX FAILURE AND RECOVERY",
+  "started_at": "2026-10-08T18:47:39.414Z",
+  "finished_at": "2026-10-08T18:47:40.038Z",
+  "status": "PASS",
+  "expected": {
+    "queued_while_offline": true,
+    "confirmed_after_recovery": true
+  },
+  "actual": {
+    "queued_while_offline": true,
+    "recovery": "PASS"
+  }
+}

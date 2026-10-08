@@ -1,0 +1,24 @@
+{
+  "test": "MQTT OUTAGE AND RECONNECT",
+  "started_at": "2026-10-08T18:59:02.411Z",
+  "status": "PASS",
+  "expected": {
+    "offline_detected": true,
+    "reconnected": true,
+    "database_confirmed": true
+  },
+  "actual": {
+    "connected_at": "2026-10-08T18:59:02.778Z",
+    "offline_at": "2026-10-08T18:59:02.991Z",
+    "offline_detected": true,
+    "consumer_alive_while_offline": true,
+    "reconnected_at": "2026-10-08T18:59:03.796Z",
+    "published_at": "2026-10-08T18:59:03.813Z",
+    "message_id": "f9245534-b1da-4115-abec-20f4186f097f",
+    "database_confirmed_at": "2026-10-08T18:59:04.334Z",
+    "database_confirmed": true,
+    "differences": [],
+    "stored_message_id": "f9245534-b1da-4115-abec-20f4186f097f"
+  },
+  "finished_at": "2026-10-08T18:59:04.341Z"
+}

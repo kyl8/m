@@ -1,0 +1,67 @@
+{
+  "test": "FREQUENCY COMPARISON",
+  "started_at": "2026-10-08T18:50:38.775Z",
+  "finished_at": "2026-10-08T18:51:05.195Z",
+  "status": "PASS",
+  "safety_limits": {
+    "max_rate_msg_s": 1000,
+    "stop_p95_ms": 10000
+  },
+  "results": [
+    {
+      "target_msg_s": 1,
+      "messages": 20,
+      "status": "PASS",
+      "stored": 20,
+      "loss": 0,
+      "observed_msg_s": 0.9742747240770965,
+      "average_latency_ms": 17.1306,
+      "p95_ms": 18.463150000000002,
+      "p99_ms": 18.49583
+    },
+    {
+      "target_msg_s": 10,
+      "messages": 20,
+      "status": "PASS",
+      "stored": 20,
+      "loss": 0,
+      "observed_msg_s": 8.273719803199715,
+      "average_latency_ms": 16.53725,
+      "p95_ms": 17.37215,
+      "p99_ms": 17.46563
+    },
+    {
+      "target_msg_s": 100,
+      "messages": 20,
+      "status": "PASS",
+      "stored": 20,
+      "loss": 0,
+      "observed_msg_s": 15.623557262130557,
+      "average_latency_ms": 329.6665,
+      "p95_ms": 464.7038,
+      "p99_ms": 475.17355999999995
+    },
+    {
+      "target_msg_s": 500,
+      "messages": 20,
+      "status": "PASS",
+      "stored": 20,
+      "loss": 0,
+      "observed_msg_s": 18.685949819425332,
+      "average_latency_ms": 312.17060000000004,
+      "p95_ms": 443.79114999999996,
+      "p99_ms": 460.02702999999997
+    },
+    {
+      "target_msg_s": 1000,
+      "messages": 20,
+      "status": "PASS",
+      "stored": 20,
+      "loss": 0,
+      "observed_msg_s": 18.57522455123485,
+      "average_latency_ms": 294.70349999999996,
+      "p95_ms": 436.72305,
+      "p99_ms": 441.34461
+    }
+  ]
+}
